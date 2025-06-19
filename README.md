@@ -1,75 +1,73 @@
-# world-happiness-data-analysis
-Data analytics mini project using the 2019 World Happiness Report
-
 # 🌍 World Happiness Report 2019 – Data Analysis
 
-## 📖 Overview
+## 📖 Project Summary
 
-This repository contains a beginner-friendly data analytics project analyzing the **2019 World Happiness Report**. Using Python libraries such as `pandas`, `matplotlib`, and `seaborn`, the analysis explores which factors (GDP per capita, social support, life expectancy, freedom, corruption perceptions) most influence a country's happiness score.
+This repository showcases a beginner-level data analytics mini project based on the **2019 World Happiness Report**. The goal is to explore how various factors like GDP per capita, social support, life expectancy, and freedom contribute to the overall happiness of countries. The analysis uses Python and popular libraries such as `pandas`, `matplotlib`, and `seaborn`.
 
-## 🚀 Project Structure
+## 📁 Repository Structure
 
 ```
 world-happiness-data-analysis/
-├── World_Happiness_Analysis.ipynb   # Jupyter notebook with analysis, visuals, and insights
-├── data/                            # (Optional) Additional datasets or CSVs
-│   └── 2019.csv                     # Source data from Kaggle
-├── output/                          # Generated files (plots, summaries)
-│   ├── happiness_summary.txt        # Text summary of insights
-│   └── top10_happy_countries.png    # Example plot saved from notebook
-└── README.md                        # This file
+├── World_Happiness_Analysis.ipynb   # Main notebook with code, visuals, and insights
+├── README.md                        # Project overview and instructions
 ```
 
-## 📊 Key Insights
+## 📊 Highlights & Key Findings
 
-* **Top 3 happiest countries**: Finland, Denmark, Norway
-* **Strong correlations**: Happiness Score ↔ GDP per capita, social support, life expectancy
-* **Areas for improvement**: High corruption perception correlates with lower happiness
+* **Top happiest countries**: Finland, Denmark, Norway
+* **Strongest correlations**:
 
-## 🔧 Getting Started
+  * GDP per capita ↔ Happiness Score
+  * Social support ↔ Happiness Score
+  * Life expectancy ↔ Happiness Score
+* **Insight**: Countries with higher corruption perceptions tend to have lower happiness levels
 
-1. **Clone the repository**:
+## 🧰 Tools Used
+
+* Python
+* Jupyter Notebook
+* pandas
+* matplotlib
+* seaborn
+
+## 🚀 How to Run the Project
+
+1. **Clone this repository**:
 
    ```bash
+   git clone https://github.com/<your-username>/world-happiness-data-analysis.git
+   cd world-happiness-data-analysis
    ```
-
-git clone [https://github.com/](https://github.com/)<your-username>/world-happiness-data-analysis.git
-cd world-happiness-data-analysis
-
-````
 2. **Install dependencies**:
-   ```bash
-pip install pandas matplotlib seaborn
-````
 
+   ```bash
+   pip install pandas matplotlib seaborn
+   ```
 3. **Open the notebook**:
 
    ```bash
+   jupyter notebook World_Happiness_Analysis.ipynb
    ```
+4. **Run all cells** to reproduce the analysis and graphs.
 
-jupyter notebook World\_Happiness\_Analysis.ipynb
+## 📂 Data Source
 
-```
-4. **Run all cells** to reproduce the analysis and visualizations.
+* Dataset from Kaggle: [World Happiness Report 2019](https://www.kaggle.com/datasets/unsdsn/world-happiness)
 
-## 📁 Data Source
-- Original dataset: [World Happiness Report 2019 (Kaggle)](https://www.kaggle.com/datasets/unsdsn/world-happiness)
+## 💡 Ideas for Improvement
 
-## 📝 Usage
-- Review the notebook for detailed code, visualizations, and narrative insights.
-- Modify or extend the analysis (e.g., multi-year comparison, regression) by editing the notebook.
+* Compare happiness data across multiple years
+* Apply regression models to predict happiness scores
+* Visualize trends using interactive tools (Plotly, Streamlit)
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests to:
-- Add more visualizations
-- Compare multiple years of data
-- Build interactive dashboards using Plotly or Streamlit
+## 🤝 Contributions
 
-## 📜 License
-This project is released under the [MIT License](LICENSE).
+Feel free to fork the repo, open issues, or submit pull requests for improvements, added insights, or enhanced visuals.
+
+## 📄 License
+
+Released under the [MIT License](LICENSE)
 
 ---
 
-*Happy analyzing!*
-
-```
+*Thank you for visiting this project! 😊*
