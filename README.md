@@ -35,7 +35,7 @@ world-happiness-data-analysis/
 1. **Clone this repository**:
 
    ```bash
-   git clone https://github.com/<your-username>/world-happiness-data-analysis.git
+   git clone https://github.com/Sabyasachi1213/world-happiness-data-analysis.git
    cd world-happiness-data-analysis
    ```
 2. **Install dependencies**:
